@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        header{
+            text-align: center;
+        }
+    </style>
+       
+</head>
+<body>
+   <header>
+        <h1>Veículos icônicos</h1>
+   </header>
+
+    <div class="container mt-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./car-171422_640.jpg" class="d-block w-100" alt="Carro antigo chevrolet corvette">
+                </div>
+                <div class="carousel-item">
+                    <img src="./car-172905_640.jpg" class="d-block w-100" alt="Dodge">
+                </div>
+                <div class="carousel-item">
+                    <img src="./oldtimer-2585110_640.jpg" class="d-block w-100" alt="VW Kombi">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-4 col-sm-6 col-12 mb-4">
+                <div class="card">
+                    <img src="./corvette-3772336_640.jpg" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Chevrolet Corvette</h5>
+                        <p class="card-text">O Chevrolet Corvette é um automóvel desportivo criado pela Chevrolet em 1953. Foi o primeiro carro esporte inteiramente americano fabricado por uma empresa americana.</p>
+                        <a href="#" class="btn btn-dark">Saiba Mais...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 mb-4">
+                <div class="card">
+                    <img id="img" src="./hippie-3898917_640.jpg" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Vw Kombi</h5>
+                        <p class="card-text">Em 1953 iniciava - se a produção no Brasil, um veículo multiuso utilizado até nos dias atuais pelos brasileiros.</p>
+                        <a href="#" class="btn btn-dark">Saiba Mais...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 mb-4">
+                <div class="card">
+                    <img src="./dodge.jpg" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Dodge</h5>
+                        <p class="card-text">A Dodge foi fundada em 1900 como Dodge Brothers e em 1928 passou a ser uma marca do grupo Chrysler. Em 1981, a filial da Dodge no Brasil foi vendida para a Volkswagen.</p>
+                        <a href="#" class="btn btn-dark">Saiba Mais...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
